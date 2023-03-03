@@ -13,16 +13,18 @@
   <meta property="og:description" content="Toto je klon webstranky OpenLab.sk">
   <meta property="og:image" content="https://openlab.wezeo.dev/wp-content/uploads/2022/02/cropped-Favicon.png">
   <meta property="og:image:secure_url" content="https://openlab.wezeo.dev/wp-content/uploads/2022/02/cropped-Favicon.png">
-  <link rel="stylesheet" href="./styles.css">
+  <!-- <link rel="stylesheet" href="./scss_compiler/custom.min.css"> -->
+  <link rel="stylesheet" href="./scss/main.scss">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
 </head>
 <body>
   
   <!-- Header Search Bar -->
-  <header class=""> 
-    <div class="">
-      <div class="">
-        <span class="">Ak máš záujem študovať spolu s nami, sme tu pre teba...</span>
+  <header class="d-flex">
+    <div class="container justify-content-center d-flex my-3">
+      <div class="me-5">
+        <span class="fs-7">Ak máš záujem študovať spolu s nami, sme tu pre teba...</span>
       </div>
       <div class="">
         <a href="#" class="">
@@ -57,8 +59,7 @@
             <a class="" href="#">Pre ucitelov</a>
             <a class="" href="#">Partneri</a>
             <a class="" href="#">Moderna skola</a>
-            <a class="" href="#">Caste otazky</a>
-            <a class="" href="./formular.html">Formulár</a>
+            <a class="" href="#">Caste otazky</a> 
           </div>
         <div class="">  
           <button class="">Pridajte sa k nám</button>
@@ -738,6 +739,8 @@
     </div>
     <img class="" src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/footer.svg" alt="yellow footer block">
   </footer>
+
+  <script type="module" src="./js/main.js"></script>
 
 </body>
 </html>

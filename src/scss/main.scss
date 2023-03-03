@@ -1,0 +1,28 @@
+// '~' sign means, "when you see it, go straight to node_modules"
+
+// Import all of Bootstrap
+// @import "./abstracts/variables";
+
+// @import "./node_modules/bootstrap/scss/_functions";
+// @import "./node_modules/bootstrap/scss/_variables";
+// @import "./node_modules/bootstrap/scss/_maps";
+
+@import "./node_modules/bootstrap/scss/_functions";
+@import "./node_modules/bootstrap/scss/_variables";
+
+// Custom Font Settings
+$h7-font-size: $font-size-base * 0.813; 
+
+// Custom font size map
+$custom-font-sizes: ( 
+  7: $h7-font-size
+);
+
+// Import necessary .scss files to alter the variables and maps
+@import "./node_modules/bootstrap/scss/_maps";
+
+// Merging default and new maps for font sizes
+$font-sizes: map-merge($custom-font-sizes, $font-sizes);
+
+// Import all of BOOTSTRAP
+@import "~bootstrap/scss/bootstrap";

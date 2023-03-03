@@ -1,0 +1,32 @@
+{
+  "name": "wezeo_openlab_v2",
+  "version": "1.0.0",
+  "description": "OpenLab.sk clone with bootstrap 5",
+  "source": "./src/index.html",
+  "scripts": {
+    "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverolah/openlab_clone_w_bootstrap.git"
+  },
+  "keywords": [
+    "OpenLab",
+    "Booststrap"
+  ],
+  "author": "Oliver olah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverolah/openlab_clone_w_bootstrap/issues"
+  },
+  "homepage": "https://github.com/oliverolah/openlab_clone_w_bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}

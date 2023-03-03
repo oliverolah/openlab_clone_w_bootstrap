@@ -1,3 +1,1 @@
 https://openlab.sk/
-
-# Uloha:
